@@ -1,0 +1,21 @@
+# Site settings
+title: MikeBlogs
+header-img: img/bg-front.jpg
+email: mikeactsdaring@gmail.com
+description: "MikeBlogs. The place where MikeActsDaringly (YouTube content-creator), aka Mihai Pop, shares his creative wisdom, audio/video projects and other amazing work. Welcome home, you weird freaks !"
+url: "http://MikeBlogs.github.io"
+twitter_username: MikeActsDarngly
+github_username:  MikeBlogs
+facebook_username:  MikeActsDaringly
+#baseurl: ""
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Gems
+gems: [jekyll-feed, jekyll-paginate]
