@@ -3,7 +3,7 @@ layout: post
 title: Make your first Android Application. "Cristii !" Soundboard.
 date: 2016-01-22 16:05:00 +0200
 author: Mike
-"header-img": "img/post-bg-02.jpg"
+"header-img": "img/cristi-bg.jpg"
 ---
 
 <p>//TO DO</p>
