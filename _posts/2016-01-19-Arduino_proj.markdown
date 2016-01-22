@@ -19,7 +19,7 @@ author: Mike
 </blockquote>		
 <p>The Fritzing scheme can be viewed here: </p>
 <a href="{{ site.baseurl }}/img/fritz.png">
-    <img src="{{ site.baseurl }}/img/fritz.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/fritz.png" alt="Fritzing Scheme">
 </a>
 <span class="caption text-muted">Have fun wiring that beast !</span>
 <p>//TO DO Provide working demo.</p>
