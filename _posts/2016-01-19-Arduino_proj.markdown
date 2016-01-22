@@ -23,4 +23,4 @@ author: Mike
 </a>
 <span class="caption text-muted">Have fun wiring that beast !</span>
 <br>
-<p>I will provide a working demo shortly:</p>
+<p>//TO DO Provide working demo.</p>
