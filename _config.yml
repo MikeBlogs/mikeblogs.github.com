@@ -18,4 +18,4 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Gems
-gems: [jekyll-feed, jekyll-paginate]
+gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap]
