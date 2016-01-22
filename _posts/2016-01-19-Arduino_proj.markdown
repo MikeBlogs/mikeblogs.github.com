@@ -21,4 +21,6 @@ author: Mike
 <a href="{{ site.baseurl }}/img/fritz.png">
     <img src="{{ site.baseurl }}/img/fritz.png" alt="Post Sample Image">
 </a>
-<span class="caption text-muted">Have fun wiring that beast. Hope comes with numbers.</span>
+<span class="caption text-muted">Have fun wiring that beast !</span>
+<br>
+<p>I will provide a working demo shortly</p>
