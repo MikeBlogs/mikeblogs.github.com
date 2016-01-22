@@ -1,11 +1,12 @@
 ---
 layout: post
-title: How to make a KickAss MIDI controller with Arduino Mega 2560.
+title: How to build a Kickass MIDI controller with Arduino Mega 2560.
 date: 2016-01-19 23:57:00 +0200
 author: Mike
 "header-img": "img/post-ard-bg.png"
 ---
 
+<h2 class="section-heading">Kickass MIDI controller</h2>
 <p>This awesome little project relies on the Arduino Mega 2560. The requirments are: </p>
 <ul>
 	<li>Arduino Mega 2560</li>
