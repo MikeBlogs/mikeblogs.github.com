@@ -14,7 +14,6 @@ author: Mike
     <li>11 Push Buttons</li>
     <li>2 Potentiometers (one is also a switch)</li>
 </ul>
-<br>
 <blockquote> - You can download the ".ino" file from here: &nbsp; &nbsp; &nbsp;
 			<a href="/files/dmp_rework.ino">Download dmp_rework.ino</a>
 </blockquote>		
@@ -23,5 +22,4 @@ author: Mike
     <img src="{{ site.baseurl }}/img/fritz.png" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">Have fun wiring that beast !</span>
-<br>
 <p>//TO DO Provide working demo.</p>
