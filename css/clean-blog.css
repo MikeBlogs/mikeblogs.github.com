@@ -4,6 +4,7 @@ body {
   color: #404040;
 }
 
+
 input[type=search] {
   background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 0px center;
   border: solid 1px #ccc;
@@ -92,6 +93,7 @@ input::-webkit-input-placeholder {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 0px 10px 0px 32px;
+  position:absolute;
 }
 
 #results-container a{
@@ -102,6 +104,8 @@ input::-webkit-input-placeholder {
 #results-container:hover {
   background: #E2E2E2;
   color: #D200CB;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
 }
 
 #results-container:focus{
@@ -112,13 +116,13 @@ input::-webkit-input-placeholder {
 }
 
 /* Demo 2 RESULTS*/
+
+
 p {
   line-height: 1.5;
   margin: 30px 0;
 }
-p a {
-  text-decoration: underline;
-}
+
 h1,
 h2,
 h3,
@@ -129,11 +133,12 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #007fe6;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #007fe6;
+  text-decoration: none;
 }
 a img:hover,
 a img:focus {
@@ -237,8 +242,8 @@ hr.small {
   }
 }
 .intro-header {
-  background: no-repeat center center;
   background-color: #808080;
+  background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -271,8 +276,8 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1;
-  display: block;
+  line-height: 1.1,
+      display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
