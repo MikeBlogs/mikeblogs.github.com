@@ -18,8 +18,13 @@ author: Mike
 			<a href="/files/dmp_rework.ino">Download dmp_rework.ino</a>
 </blockquote>		
 <p>The Fritzing scheme can be viewed here: </p>
+<a href="/img/fritz.png">
+    <img src="{{ site.baseurl }}/img/fritz.png" alt="Fritzing Scheme">
+</a>
+<!--
 <a href="{{ site.baseurl }}/img/fritz.png">
     <img src="{{ site.baseurl }}/img/fritz.png" alt="Fritzing Scheme">
 </a>
+-->
 <span class="caption text-muted">Have fun wiring that beast !</span>
 <p>//TO DO Provide working demo.</p>
