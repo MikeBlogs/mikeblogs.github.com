@@ -6,4 +6,7 @@ author: Mike
 "header-img": "img/crsti-bg.png"
 ---
 
+<a href="{{ site.baseurl }}/img/fritz.png">
+    <img src="{{ site.baseurl }}/img/cristi.jpg" alt="Cristi">
+</a>
 <p>//TO DO</p>
