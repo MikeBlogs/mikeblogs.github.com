@@ -23,4 +23,4 @@ gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap]
 #FB
 fb_admins: https://www.facebook.com/MikeActsDaringly
 fb_appid: 269346303238472
-avatar: /img/eu.jpg
+avatar: img/eu.jpg
