@@ -60,7 +60,7 @@ input::-webkit-input-placeholder {
   background-color: #fff;
 }
 #search-container input[type=search]:focus {
-  width: 100px;
+  width: 25%;
   padding-left: 32px;
   color: #000;
   background-color: #fff;
