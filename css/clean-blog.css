@@ -4,6 +4,21 @@ body {
   color: #404040;
 }
 
+.footerLogo {
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 5%;
+  opacity: 0.6;
+  -moz-opacity:0.6;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.footerLogo:hover{
+  opacity: 1.0;
+  cursor: pointer;
+}
 
 input[type=search] {
   background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 0px center;
