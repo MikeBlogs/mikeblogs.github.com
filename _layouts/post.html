@@ -17,10 +17,10 @@ layout: default
             </div>
         </div>
     </div>
-    <div id="search-container" style="padding-bottom: 0.8em;">
+    <div id="search-container" style="padding-bottom: 0.8em;" onclick="clearInput('search-container'); clearBox('results-container')">
                 &thinsp; &thinsp;
                 <input  type="search" id="search-input" placeholder="search...">
-                <ul id="results-container" onclick="clearBox('results-container')" onmouseenter="getResults('resultsContainer')"></ul>
+                <ul id="results-container" onclick="clearBox('results-container')" onmouseenter="getResults('resultsContainer')" ></ul>
         </div>
 </header>
 
@@ -83,6 +83,10 @@ layout: default
 
 <!-- Script for when mouse leaves result-container -->
 <script>
+        function clearInput(elementID){
+            document.getElementById("search-input").value = "";
+        }
+
        function clearBox(elementID){
                 document.getElementById(elementID).innerHTML = "";
 
@@ -98,16 +102,6 @@ layout: default
         }
            
 </script>
-<!-- Script for when mouse leaves result-container -->
-
-
-        <!-- Html Elements for Search 
-        <div class="navbar-header page-scroll" class="navbar-toggle" data-toggle="collapse">
-            <div id="search-container">
-                <input type="search" id="search-input" placeholder="search...">
-                <ul id="results-container"></ul>
-            </div>
-        </div>-->
         
 <!-- Script pointing to jekyll-search.js -->
 <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
