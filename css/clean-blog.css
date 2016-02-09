@@ -106,7 +106,7 @@ input::-webkit-input-placeholder {
   background-color: #C6C5C5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 0px 10px 0px 32px;
   position:absolute;
 }
@@ -114,20 +114,27 @@ input::-webkit-input-placeholder {
 #results-container a{
   text-decoration: none;
   color: #404040;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#results-container:hover {
+#results-container:hover{
+  opacity: 0.8;
+}
+
+#results-container li:hover {
   background: #E2E2E2;
   color: #D200CB;
-  opacity: 0.8;
-  -moz-opacity: 0.8;
+  border-radius: 15px;
+  opacity: 0.9;
+  -moz-opacity: 0.9;
 }
 
-#results-container:focus{
+#results-container li:focus{
   width: 10em;
   cursor: auto;
-  opacity: 0.8;
-  -moz-opacity: 0.8;
+  opacity: 0.9;
+  -moz-opacity: 0.9;
 }
 
 /* Demo 2 RESULTS*/
